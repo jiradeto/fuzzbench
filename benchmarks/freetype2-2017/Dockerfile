@@ -14,7 +14,7 @@
 #
 ################################################################################
 
-FROM gcr.io/oss-fuzz-base/base-builder
+FROM gcr.io/oss-fuzz-base/base-builder@sha256:e0ea7bc8c4fa6fa6f009b605212a01fe424cf9a1f9ec1c96cadee86cabe698ef
 
 RUN apt-get update &&  \
     apt-get install -y \
